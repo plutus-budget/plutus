@@ -1,0 +1,7 @@
+### WebStorm ###
+**/.idea/**/*
+### End of WebStorm ###
+
+### macOS ###
+.DS_Store
+### End of macOS ###
