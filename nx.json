@@ -24,6 +24,9 @@
         "{workspaceRoot}/.eslintrc.json",
         "{workspaceRoot}/.eslintignore"
       ]
+    },
+    "serve": {
+      "dependsOn": ["^build"]
     }
   },
   "namedInputs": {
@@ -38,7 +41,7 @@
     "sharedGlobals": []
   },
   "workspaceLayout": {
-    "appsDir": "packages",
+    "appsDir": "apps",
     "libsDir": "packages"
   }
 }

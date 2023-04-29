@@ -2,8 +2,8 @@
     "name": "@plutus/plutus-api",
     "version": "0.0.1",
     "description": "Plutus API",
-    "devDependencies": {},
     "dependencies": {
+        "@plutus/shared": "*",
         "@fastify/autoload": "~5.7.1",
         "@fastify/sensible": "~5.2.0",
         "fastify": "~4.13.0",
